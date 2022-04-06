@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/dia 6/style.css">
+</head>
+<body>
+    <!--MENU REGIONAL-->
+    <ul class="login">
+        <li><a href="./login.html" class="anchorLogin" target="blank">login</a></li>
+        <li><a href="./registro.html" class="anchorLogin" target="blank">Register</a></li>
+    </ul>
+
+
+    <!--HEADER-->
+    <header>
+        <section class="img-logo">
+            <a href="../index.html"><img src="../img/logo.jpg" alt="" class="logo-kitchen"></a>
+        </section>
+
+
+        <nav>
+            <ul class="navegacion">
+                <li class="liNav"><a href="../index.html"></a>Home</li>
+                <li class="liNav"><a href="Quienes"></a>Quienes</li>
+                <li class="liNav"><a href="Servicios"></a>Servicios</li>
+                <li class="liNav"><a href="Portflio"></a>Portfolio</li>
+                <li class="liNav"><a href="Sucursales"></a>Sucursales</li>
+                <li class="liNav"><a href="Contacto"></a>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sectionBanner">
+        <img src="../img/img-banner.jpg" alt="imagen banner" class="banner">
+    </section>
+
+<!--MAIN-->
+
+<section class="sectionForm">
+    <form action="./search.html" method="get" class="form">
+        <div class="inputForm">
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" name="nombre" value="" required> 
+        </div>
+        <div class="inputForm">
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" value="" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <!--CAJA 4-->
+        <div>
+            <label for="nacionalidad">Nacionalidad:</label>
+            <input type="nacionalidad" name="nacinoalidad" id="nacionalidad">
+            <select name="pais" id="pais">
+                <option value="null">Seleccione Pais</option>
+                <option value="Ar">Argentina</option>
+                <option value="Ch">Chile</option>
+                <option value="Br">Brasil</option>
+                <option value="Pa">Paraguay</option>
+                <option value="Ur">Uruguay</option>
+            </select>
+        </div>
+        <!--CAJA 5-->
+        <div>
+            <label for="genero">Género</label>
+            <input type="radio" name="femenino" value="f">Femenino
+            <input type="radio" name="masculino" value="m">Masculino
+            <input type="radio" name="otro" value="o">Otro
+        </div>
+        <!--CAJA 6-->
+        <div>
+            <label for="hobbies">Hobbies</label>
+            <input type="checkbox" name="hobbies" value="futbol">Futbol
+            <input type="checkbox" name="hobbies" value="hockey">Hockey
+            <input type="checkbox" name="hobbies" value="volley">Volley
+            <input type="checkbox" name="hobbies" value="handball">Handball
+            <input type="checkbox" name="hobbies" value="basketball">Basketball
+        </div>
+        <!--CAJA 7-->
+        <div>
+            <label for="textarea">Contanos sobre vos</label>
+            <br>
+            <textarea name="contanos sobre vos" id="contanossobrevis" cols="30" rows="10"></textarea>
+        </div>
+        <!--CAJA 8-->
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetear</button>
+        </div>
+        <!--CAJA 9-->
+        <div>
+            <input type="checkbox" name="termino" value="termino">Aceptar términos y condiciones
+        </div>
+    </form>
+</section>
+
+
+
+
+<!--FOOTER-->
+    <footer>
+        <section>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#Home"></a>Home</li>
+                    <li><a href="#Quienes"></a>Quienes</li>
+                    <li><a href="#Servicios"></a>Servicios </li>
+                    <li><a href="Portfolio"></a>Portfolio</li>
+                    <li><a href="Sucursales"></a>Sucursales </li>
+                    <li><a href="Contacto"></a>Contacto
+                    <li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
+</html>
